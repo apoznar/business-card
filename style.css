@@ -25,10 +25,19 @@ body {
     padding: 32px;
 }
 
+.person {
+    display: flex;
+}
+
 .person__name {
     font-size: 36px;
     margin: 0;
     font-weight: normal;
+}
+
+.person__picture {
+    margin-right: 32px;
+    align-items: flex-start;
 }
 
 .person__position {
